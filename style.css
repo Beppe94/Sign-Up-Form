@@ -10,12 +10,48 @@ html,body {
 
 @media (min-width:780px) {
     .container {
+        position: relative;
         display: flex;
         justify-content: center;
         width: 820px;
     }
 }
 
+/* for monitor*/
+@media screen and (min-width:780px) {
+    .picture p {
+        position: absolute;
+        color: white;
+        left: 22px;
+        bottom: 22px;
+    }
+
+    .picture a:visited{
+        color: white;
+        text-decoration: underline;
+    }
+
+    .picture a:hover{
+        border-radius: 20px;
+        text-shadow: 0 0 10px #ffffff, 0 0 30px #ffffff, 0 0 50px  #ffffff;
+    }
+}
+
+/*for mobile */
+@media screen and (max-width:650px){
+    .picture p {
+        position: absolute;
+        color: white;
+        left: 32px;
+        bottom: 110px;
+    }
+
+    .picture a:visited{
+        color: white;
+        text-decoration: underline;
+    }
+
+}
 .main {
     display: flex;
     justify-content: center;
@@ -23,25 +59,17 @@ html,body {
 }
 
 .container {
-    position: relative;
     border-radius: 10px;
     gap: 10px;
     padding: 10px;
     background-color: rgb(116, 61, 167);
 }
 
-.container img {
+.picture img {
     border-radius: 5px;
     width: 400px;
     height: 600px;
     margin-bottom: 5px;
-}
-
-.credits {
-    color: white;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
 }
 
 .textBox {
