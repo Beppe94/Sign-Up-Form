@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+    background-color:rgba(11, 9, 17, 0.74);
+}
+
+@media (min-width:780px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        width: 820px;
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding-top:  5%;
+}
+
+.container {
+    position: relative;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(116, 61, 167);
+}
+
+.container img {
+    border-radius: 5px;
+    width: 400px;
+    height: 600px;
+    margin-bottom: 5px;
+}
+
+.credits {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.textBox {
+    border: 3px solid rgb(18, 98, 163);
+    width: 380px;
+    padding: 5px;
+}
+
+.registerForm {
+    border: 2px solid black;
+    display: grid;
+    margin-top: 10px;
+    height: 350px;
+    grid-template-columns: 200px;
+    padding: 5px;
+}
+
+.registerForm input {
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.registerForm button {
+    padding: 5px;
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+footer svg {
+    color: black;
+    transition: 0.3s;
+    border-radius: 10px;    
+}
+
+footer svg:hover{
+    color: white;
+    box-shadow: 0 0 10px #ffffff, 0 0 30px #ffffff, 0 0 60px  #ffffff;
+}
+
