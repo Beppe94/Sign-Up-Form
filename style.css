@@ -3,9 +3,11 @@
     margin: 0;
 }
 
-html,body {
+html {
     height: 100%;
-    background-color:rgba(11, 9, 17, 0.74);
+    background-size: contain;
+    background-color:rgba(31, 29, 36, 0.829);
+    font-family: 'Poppins', sans-serif;
 }
 
 @media (min-width:780px) {
@@ -62,7 +64,7 @@ html,body {
     border-radius: 10px;
     gap: 10px;
     padding: 10px;
-    background-color: rgb(116, 61, 167);
+    background-color: rgba(67, 44, 196, 0.699);
 }
 
 .picture img {
@@ -73,7 +75,7 @@ html,body {
 }
 
 .textBox {
-    border: 3px solid rgb(18, 98, 163);
+    border: 3px solid rgb(41, 116, 177);
     width: 380px;
     padding: 5px;
 }
@@ -82,15 +84,23 @@ html,body {
     border: 2px solid black;
     display: grid;
     margin-top: 10px;
-    height: 350px;
+    height: 400px;
     grid-template-columns: 200px;
     padding: 5px;
+}
+
+.registerForm label {
+    margin: 4px;
 }
 
 .registerForm input {
     padding: 5px;
     margin: 3px;
     border-radius: 5px;
+}
+
+.active:active {
+    border: 2px solid red;
 }
 
 .registerForm button {
@@ -103,13 +113,16 @@ html,body {
 footer {
     display: flex;
     justify-content: center;
-    gap: 3px;
+    margin: 50px;
+    gap: 7px;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 footer svg {
     color: black;
     transition: 0.3s;
-    border-radius: 10px;    
+    border-radius: 15px;
 }
 
 footer svg:hover{
