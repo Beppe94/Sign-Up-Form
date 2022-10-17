@@ -1,9 +1,21 @@
-const password = document.querySelector('#password')
-const confPassword = document.querySelector('#confirmPassword')
-const pwText = document.querySelector('#pwText')
+function check() {
 
-function checkPass(pw1, pw2) {
-    if(pw1 !== pw2) {
-        pwText.classList.add('active')
+    const password = document.getElementById('password')
+    const confPassword = document.getElementById('confirmPassword')
+    const pwText = document.getElementById('pwText')
+    const form = document.querySelector('form')
+    const num = document.getElementById('num')
+
+    if(password.value.match(/[0-9]/)) {
+        num.style.color = 'green'
+    } else {
+        num.style.color = 'red'
+    }
+
+    if(password.value != confPassword.value) {
+        pwText.style.color = 'red'
+    } else {
+        pwText.style.color = 'green'
     }
 }
+

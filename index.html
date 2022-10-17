@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-    </style>
+    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="main">
@@ -29,23 +26,29 @@
                 <div class="registerForm">
                     <form >
                         <label for="name">Your Name:</label>
-                        <input class="active" type="text" id="name" name="name" placeholder="Your name" required>
+                        <input class="active" type="text" id="name" name="name" placeholder="Your name" required/>
 
                         <label for="surname">Your surname:</label>
-                        <input class="active" type="text" name="surname" id="surname" placeholder="Your surname" required>
+                        <input class="active" type="text" name="surname" id="surname" placeholder="Your surname" required/>
 
                         <label for="email">Email:</label>
-                        <input class="active" type="email" name="email" id="email" placeholder="Random Email" required>
+                        <input class="active" type="email" name="email" id="email" placeholder="Random Email" required/>
 
                         <label for="password">Password:</label>
-                        <input class="active" type="password" name="password" id="password" placeholder="Random password" required>
+                        <input class="active" type="password" name="password" id="password" placeholder="Random password" oninput="return check()" required/>
 
                         <label for="confirmPassword" id="pwText">Confirm Password:</label>
-                        <input class="active" type="password" name="confirmPassword" id="confirmPassword" placeholder="Random password" required>
+                        <input class="active" type="password" name="confirmPassword" id="confirmPassword" placeholder="Random password" required/>
 
-                        <button type="submit">Sign Up</button>
+                        <div class="confirmations">
+                            <ul>
+                                <li id="num">At Least One Number</li>
+                            </ul>
+                        </div>
+
                     </form>
                 </div>
+                <button type="submit">Sign Up</button>
             </div>
         </div>
     </div>
