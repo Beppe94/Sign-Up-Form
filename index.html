@@ -38,17 +38,18 @@
                         <input class="active" type="password" name="password" id="password" placeholder="Random password" oninput="return check()" required/>
 
                         <label for="confirmPassword" id="pwText">Confirm Password:</label>
-                        <input class="active" type="password" name="confirmPassword" id="confirmPassword" placeholder="Random password" required/>
+                        <input class="active" type="password" name="confirmPassword" id="confirmPassword" placeholder="Random password" oninput="return check()" required/>
 
                         <div class="confirmations">
                             <ul>
-                                <li id="num">At Least One Number</li>
+                                <li id="num">At least on number</li>
+                                <li id="upperCase">At least one upper case</li>
                             </ul>
                         </div>
 
+                        <button type="submit">Sign Up</button>
                     </form>
                 </div>
-                <button type="submit">Sign Up</button>
             </div>
         </div>
     </div>

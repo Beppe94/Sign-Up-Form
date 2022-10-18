@@ -8,7 +8,7 @@
 html {
     height: 100%;
     background-size: contain;
-    background-color:rgba(31, 29, 36, 0.829);
+    background-color:rgba(66, 63, 71, 0.829);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -21,7 +21,7 @@ html {
     }
 }
 
-/* for monitor*/
+/*text on image for monitor*/
 @media screen and (min-width:780px) {
     .picture p {
         position: absolute;
@@ -41,7 +41,7 @@ html {
     }
 }
 
-/*for mobile */
+/* text on image for mobile */
 @media screen and (max-width:650px){
     .picture p {
         position: absolute;
@@ -56,6 +56,7 @@ html {
     }
 
 }
+
 .main {
     display: flex;
     justify-content: center;
@@ -66,7 +67,7 @@ html {
     border-radius: 10px;
     gap: 10px;
     padding: 10px;
-    background-color: rgba(67, 44, 196, 0.699);
+    background-image: linear-gradient(50deg, #f08e38, #2acedafa);
 }
 
 .picture img {
@@ -85,9 +86,9 @@ html {
 .registerForm {
     border: 2px solid black;
     display: grid;
+    grid-template-columns: 240px;
     margin-top: 10px;
     height: 400px;
-    grid-template-columns: 200px;
     padding: 5px;
 }
 
@@ -110,6 +111,10 @@ html {
     margin-top: 20px;
     width: 120px;
     height: 30px;
+}
+
+.confirmations li {
+    list-style-type: none;
 }
 
 footer {
