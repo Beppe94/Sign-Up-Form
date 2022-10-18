@@ -57,6 +57,22 @@ html {
 
 }
 
+/*footer position an size text for mobile*/
+@media screen and (max-width:650px) {
+    footer {
+        position: relative;
+        font-size: 20px;
+        bottom: 20px;
+    }
+}
+
+/*footer font size for bigger monitor*/
+@media screen and (min-width:780px) {
+    footer {
+        font-size: 30px;
+    }
+}   
+
 .main {
     display: flex;
     justify-content: center;
@@ -122,7 +138,6 @@ footer {
     justify-content: center;
     margin: 50px;
     gap: 7px;
-    font-size: 30px;
     font-weight: 700;
 }
 
