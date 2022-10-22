@@ -48,11 +48,11 @@ function check() {
     }
 
     if(password.value.length < 5) {
-        pwLenght.textContent = 'At least 5 characters ✓'
+        pwLenght.textContent = 'At least 5 characters 🗴'
         pwLenght.style.color = 'red'
         hasErrors = false;
     } else {
-        pwLenght.textContent = 'At least 5 characters 🗴'
+        pwLenght.textContent = 'At least 5 characters ✓'
         pwLenght.style.color = 'green'
         hasErrors = true;
     }
