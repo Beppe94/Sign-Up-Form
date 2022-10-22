@@ -146,11 +146,17 @@ html {
 }
 
 .confirmations button {
+    font-family: 'Poppins', sans-serif;
     left: 18vw;
     bottom: 9vh;
     width: 90px;
     height: 80px;
     border-radius: 5px;
+    transition: 0.4s;
+}
+
+.confirmations button:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px  #ffffff;
 }
 
 .confirmations li {
@@ -167,4 +173,5 @@ footer svg:hover{
     color: white;
     box-shadow: 0 0 10px #ffffff, 0 0 30px #ffffff, 0 0 60px  #ffffff;
 }
+
 
