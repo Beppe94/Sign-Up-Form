@@ -6,7 +6,6 @@
 }
 
 html {
-    height: 100%;
     background-size: contain;
     background-color:rgba(66, 63, 71, 0.829);
     font-family: 'Poppins', sans-serif;
@@ -26,8 +25,8 @@ html {
     .picture p {
         position: absolute;
         color: white;
-        left: 22px;
-        bottom: 22px;
+        left: 10px;
+        bottom: 15px;
     }
 
     .picture a:visited{
@@ -46,8 +45,8 @@ html {
     .picture p {
         position: absolute;
         color: white;
-        left: 32px;
-        bottom: 110px;
+        left: 10px;
+        bottom: 15px;
     }
 
     .picture a:visited{
@@ -84,6 +83,10 @@ html {
     gap: 10px;
     padding: 10px;
     background-image: linear-gradient(50deg, #f08e38, #2acedafa);
+}
+
+.picture {
+    position: relative;
 }
 
 .picture img {
