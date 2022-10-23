@@ -48,11 +48,6 @@ html {
         left: 10px;
         bottom: 15px;
     }
-
-    .picture a:visited{
-        color: white;
-    }
-
 }
 
 /*footer position an size text for mobile*/
@@ -102,6 +97,10 @@ html {
     width: 400px;
     height: 600px;
     margin-bottom: 5px;
+}
+
+.picture a:visited{
+    color: white;
 }
 
 .textBox {
