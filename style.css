@@ -51,7 +51,6 @@ html {
 
     .picture a:visited{
         color: white;
-        text-decoration: underline;
     }
 
 }
@@ -135,6 +134,15 @@ html {
     position: relative;
     text-align: right;
     left: 108px;
+}
+
+.registerForm p a:visited {
+    color: white;
+    transition: 0.3s;
+}
+
+.registerForm p a:hover {
+    text-shadow: 0 0 15px #ffffff, 0 0 35px #ffffff, 0 0 45px  #ffffff;
 }
 
 .confirmations {
