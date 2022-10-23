@@ -21,7 +21,7 @@ html {
 }
 
 /*text on image for monitor*/
-@media screen and (min-width:780px) {
+@media screen and (min-width:1200px) {
     .picture p {
         position: absolute;
         color: white;
@@ -41,7 +41,7 @@ html {
 }
 
 /* text on image for mobile */
-@media screen and (max-width:480vh){
+@media screen and (max-width:480px){
     .picture p {
         position: absolute;
         color: white;
@@ -57,7 +57,7 @@ html {
 }
 
 /*footer position an size text for mobile*/
-@media screen and (max-width:480vh) {
+@media screen and (max-width: 480vh) {
     footer {
         display: flex;
         justify-content: center;
@@ -69,8 +69,8 @@ html {
     }
 }
 
-/*footer font size for bigger monitor*/
-@media screen and (min-width:1200vh) {
+/*footer font size for monitor*/
+@media screen and (min-width:1200px) {
     footer {
         font-size: 30px;
         margin: 50px;
@@ -115,7 +115,7 @@ html {
     position: relative;
     border-radius: 5px;
     display: grid;
-    grid-template-columns: 235px;
+    grid-template-columns: 230px;
     margin-top: 10px;
     height: 400px;
     padding: 5px;
